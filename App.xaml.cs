@@ -1,4 +1,4 @@
-﻿namespace LayoustHerrera
+namespace LayoustHerrera
 {
     public partial class App : Application
     {

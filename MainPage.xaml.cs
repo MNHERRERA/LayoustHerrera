@@ -1,4 +1,4 @@
-﻿using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls;
 
 namespace LayoustHerrera
 {
@@ -11,7 +11,7 @@ namespace LayoustHerrera
 
         private void OnGoToStackLayoutClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new StackLayout());
+            Navigation.PushAsync(new StackLayoutPage());
         }
     }
 }

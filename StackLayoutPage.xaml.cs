@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace LayoustHerrera
 {
-    public partial class StackLayout : ContentPage
+    public partial class StackLayoutPage : ContentPage
     {
-        public StackLayout()
+        public StackLayoutPage()
         {
             InitializeComponent();
         }
