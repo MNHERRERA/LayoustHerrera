@@ -9,7 +9,8 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new AppShell());
+            // En lugar de AppShell, usar NavigationPage con MainPage
+            return new Window(new NavigationPage(new MainPage()));
         }
     }
 }
